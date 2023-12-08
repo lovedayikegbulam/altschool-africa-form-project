@@ -1,0 +1,321 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+    margin: 0;
+}
+
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*
+  8. Create a root stacking context
+*/
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/** Main Css */
+/* body {
+  width: 100vw;
+  height: 100vh;
+} */
+
+body {
+      background: rgba(46, 196, 182, .03);
+}
+
+.wrapper {
+    display: flex;
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    /* background: rgba(46, 196, 182, .03); */
+
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+
+}
+
+
+.first-column-inner-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.second-column-inner-wrapper {
+  background-color: rgba(255, 255, 255, 1);
+  border: 50px solid rgba(255, 255, 255, 1);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  max-width: 77.3px;
+  min-height: 80px;
+  margin-top: -7px;
+  margin-left: -8px;
+}
+
+#heading-text {
+  font-family: sans-serif;
+  font-weight: 700px;
+  font-size: 40px;
+  line-height: 50px;
+  color: rgba(0, 11, 10, 1);
+}
+
+.form-description-container {
+  min-height: 75px;
+  max-width: 460px;
+  margin-bottom: 0px;
+}
+
+#form-description {
+  font-family: sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.second-column-inner-wrapper {
+  margin: 0 auto;
+}
+
+
+#form-field-select > select {
+  width: 238px;
+  height: 48px;
+}
+
+.form-row{
+  display: flex;
+}
+
+.form-row-full-width {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 238px;
+  min-height: 72px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+#form-item-full-width{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+#form-item-full-width>div>select {
+  width: 500px;
+  height: 48px;
+}
+
+#form-item-full-width > div > input{
+  width: 500px;
+}
+
+.form-field-container{
+  width: 238px;
+  height: 72px;
+}
+
+
+label{
+  max-width: 238px;
+  min-height: 16px;
+}
+
+input{
+  width: 238px;
+  height: 48px;
+} 
+
+form > button {
+  width: 500px;
+  height: 48px;
+  background-color: rgba(46, 196, 182, 1);
+  color:rgba(255, 255, 255, 1);
+  border: none;
+  margin-top: 10px;
+}
+
+.form-footer{
+  margin: 10px auto;
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 453px;
+  min-height: 25px;
+}
+
+span > a{
+  color: rgba(46, 196, 182, 1);
+}
+
+@media (max-width: 600px) {
+  .wrapper{
+    flex-direction: column;
+    width: auto;
+  }
+
+  #logo {
+    max-width: 38.67px;
+    min-height: 40px;
+    margin-top: 0px;
+    margin-left: -7px;
+    margin-bottom: 10px;
+  }
+
+  .heading-container{
+    max-width: 327px;
+    min-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  #heading-text {
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 29.4px;
+  }
+
+  .form-description-container {
+    min-height: 50px;
+    max-width: 327px;
+    margin-bottom: 10px;
+  }
+
+  #form-description {
+    font-weight: 300px;
+    height: 50px;
+    font-size: 9px;
+    line-height: 25px;
+  }
+
+  .form-group {
+    max-width: 295px;
+    min-height: 72px;
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  #form-item-full-width>div>select {
+    max-width: 295px;
+  }
+
+  #form-item-full-width>div>input {
+    max-width: 295px;
+  }
+
+  form>button {
+    max-width: 295px;
+  }
+
+  .form-footer {
+    margin: 10px auto;
+    line-height: 25px;
+    text-align: center;
+    max-width: 295px;
+    min-height: 25px;
+  }
+
+  label {
+    max-width: 295px;
+    min-height: 16px;
+  }
+
+  input {
+    width: 295px;
+    height: 48px;
+  }
+
+  #form-field-select>select {
+    width: 295px;
+    height: 48px;
+  }
+
+  .first-column-inner-wrapper {
+    margin: 20px  auto;
+    max-width: 300px;
+    min-height: fit-content;
+  }
+
+  .second-column-inner-wrapper {
+    border: 5px solid rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    margin: 0 auto;
+    max-width: 327px;
+    min-height: 870;  
+  }
+}
