@@ -85,6 +85,11 @@ body {
     /* background: rgba(46, 196, 182, .03); */
 
 }
+#form-description-mobile {
+  display: none;
+}
+
+
 
 .flex-item {
   display: flex;
@@ -232,6 +237,14 @@ span > a{
     margin-top: 0px;
     margin-left: -7px;
     margin-bottom: 10px;
+  }
+
+  #form-description {
+     display: none;
+  }
+
+  #form-description-mobile {
+    display: initial;
   }
 
   .heading-container{
