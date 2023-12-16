@@ -27,7 +27,7 @@ Open the html file as you would in any browser
 This is a courswork individual project set up for grading and wouldn't be requiring any contributions
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 
 
