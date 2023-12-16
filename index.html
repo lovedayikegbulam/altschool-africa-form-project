@@ -1,123 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>Sign Up</title>
-</head>
-<body>
-    <div class="wrapper">
-        <div class="flex-item first-column-wrapper" >
-            <div class="first-column-inner-wrapper">
-                <img src="assets/Logo.png" alt="logo" id="logo">
-                <div class="heading-container"><h2 id="heading-text">For Individuals</h2></div>
-                <div class="form-description-container">
-                    <p id="form-description">Start benefiting from the wellness experience. 
-                    For companies looking on increasing productivity,
-                    and improving organization wellness.</p>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Sign Up</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="flex-item first-column-wrapper">
+				<div class="first-column-inner-wrapper">
+					<img src="assets/Logo.png" alt="logo" id="logo" />
+					<div class="heading-container">
+						<h2 id="heading-text">For Individuals</h2>
+					</div>
+					<div class="form-description-container">
+						<p id="form-description">
+							Start benefiting from the wellness experience. For companies
+							looking on increasing productivity, and improving organization
+							wellness.
+						</p>
 
-                    <p id="form-description-mobile">Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
-                </div>
-               
-            </div>
-        </div>
-        <div class="flex-item second-column-wrapper">
-            <div class="second-column-inner-wrapper">
-                <form action="/" method="post">
-                    <div class="form-row">
-                  <div class="form-group">
-                    <div class="form-field-container">
-                      <label for="fname">First Name</label>
-                      <input type="text" class="form-control" placeholder="e.g. John" id="fname">
-                    </div>
-                    
-                  </div>    
-              
-               
-                  <div class="form-group">
-                    <div class="form-field-container">
-                      <label for="lname">Last Name</label>
-                      <input type="text" class="form-control" placeholder="e.g. Smith" id="lname">
-                    </div>
-                    
-                  </div>    
-                  </div>
-                   
-                  <div class="form-row">
-                  <div class="form-group">
-                    <div id="form-field-select" class="form-field-container">
-                      <label for="gender">Gender</label>
-                      <select name="gender">
-                        <option value="none" selected>Select here</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                      </select>
-                    </div>
-                  </div>    
-              
-               
-                  <div class="form-group">
-                    <div class="form-field-container">
-                      <label for="dob">Date Of Birth</label>
-                      <input type="date" class="form-control" id="dob">
-                    </div>
-                  </div>    
-                  </div>
+						<p id="form-description-mobile">
+							Inspiring wholesome harmony for the mind, body and spirit, for
+							everyone, everywhere.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="flex-item second-column-wrapper">
+				<div class="second-column-inner-wrapper">
+					<form action="/" method="post">
+						<div class="form-row">
+							<div class="form-group">
+								<div class="form-field-container">
+									<label for="fname">First Name</label>
+									<div class="input-container">
+										<input
+											type="text"
+											class="form-control"
+											placeholder="e.g. John"
+											id="fname"
+										/>
+									</div>
+								</div>
+							</div>
 
-                  <div class="form-row">
-                  <div class="form-group">
-                    <div class="form-field-container">
-                      <label for="weight">Weight(KG)</label>
-                      <input type="text" class="form-control" placeholder="Enter Weight" id="weight">
-                    </div>
-                  </div>    
-              
-               
-                  <div class="form-group">
-                    <div class="form-field-container">
-                      <label for="height">Height(CM)</label>
-                      <input type="text" class="form-control" placeholder="Enter height here..." id="height">
-                    </div>
-                  </div>    
-                  </div>
+							<div class="form-group">
+								<div class="form-field-container">
+									<label for="lname">Last Name</label>
+									<div class="input-container">
+										<input
+											type="text"
+											class="form-control"
+											placeholder="e.g. Smith"
+											id="lname"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
 
-                  <div class="form-row-full-width">
-                  <div id="form-item-full-width" class="form-group">
-                    <div id="form-field-select-activity-level" class="form-field-container">
-                      <label for="activity-level">Activity Level</label>
-                      <select name="activity-level">
-                        <option value="none" selected>Select here</option>
-                        <option value="beginer">Beginner</option>
-                        <option value="intermediate">Intermediate</option>
-                        <option value="proffessional">Proffessional</option>
-                      </select>
-                    </div>
-                  </div>    
-              
-               
-                  <div id="form-item-full-width" class="form-group">
-                    <div class="form-field-container">
-                      <label for="password">Password</label>
-                      <input type="password" class="form-control" placeholder="" id="password">
-                    </div>
-                  </div>    
-                  </div>
+						<div class="form-row">
+							<div class="form-group">
+								<div id="form-field-select" class="form-field-container">
+									<label for="gender">Gender</label>
+									<div class="input-container">
+										<select name="gender">
+											<option value="none" selected>Select here</option>
+											<option value="male">Male</option>
+											<option value="female">Female</option>
+										</select>
+									</div>
+								</div>
+							</div>
 
-                  <button>Register</button>
-                  <div class="form-footer">
-                    <p>By clicking Register, you agree to our 
-                        <span>
-                          <a href="https://www.google.com">Terms of Use</a>
-                        </span> and our <span>
-                          <a href="https://www.google.com">Privacy Policy</a>
-                        </span>
-                    </p>
-                  </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</body>
+							<div class="form-group">
+								<div class="form-field-container">
+									<label for="dob">Date Of Birth</label>
+									<div class="input-container">
+										<input type="text" placeholder="Select here...." id="dob" />
+										<div id="img-icon-container-calender">
+											<img
+												src="assets/u_a_calendar-alt.png"
+												alt="calender-icon"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-row">
+							<div class="form-group">
+								<div class="form-field-container">
+									<label for="weight">Weight(KG)</label>
+									<div class="input-container">
+										<input
+											type="text"
+											class="form-control"
+											placeholder="Enter Weight"
+											id="weight"
+										/>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="form-field-container">
+									<label for="height">Height(CM)</label>
+									<div class="input-container">
+										<input
+											type="text"
+											class="form-control"
+											placeholder="Enter height here..."
+											id="height"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-row-full-width">
+							<div id="form-item-full-width" class="form-group">
+								<div
+									id="form-field-select-activity-level"
+									class="form-field-container"
+								>
+									<label for="activity-level">Activity Level</label>
+									<div class="input-container-full">
+										<select name="activity-level">
+											<option value="none" selected>Select here</option>
+											<option value="beginer">Beginner</option>
+											<option value="intermediate">Intermediate</option>
+											<option value="proffessional">Proffessional</option>
+										</select>
+									</div>
+								</div>
+							</div>
+
+							<div id="form-item-full-width" class="form-group">
+								<div class="form-field-container">
+									<label for="password">Password</label>
+									<div class="input-container-full">
+										<input
+											type="password"
+											class="form-control"
+											placeholder=""
+											id="password"
+										/>
+										<div id="img-icon-container-password">
+											<img
+												src="assets/show.png"
+												alt="show-icon"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<button>Register</button>
+						<div class="form-footer">
+							<p>
+								By clicking Register, you agree to our
+								<span>
+									<a href="https://www.google.com">Terms of Use</a>
+								</span>
+								and our
+								<span>
+									<a href="https://www.google.com">Privacy Policy</a>
+								</span>
+							</p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
