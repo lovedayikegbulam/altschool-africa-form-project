@@ -364,14 +364,11 @@ span > a {
 
 		input {
 			width: 90%;
+      
 		}
 
 		select {
 			width: 95%;
-		}
-
-		#dob {
-			width: 90%;
 		}
 	}
 
