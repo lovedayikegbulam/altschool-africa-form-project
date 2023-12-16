@@ -168,8 +168,8 @@ label {
 	border: 1px solid rgba(240, 240, 240, 1);
 	border-radius: 2px;
 	display: flex;
-	flex-wrap: wrap;
-	align-content: center;
+	/* flex-wrap: wrap; */
+	/* align-content: center; */
 	align-items: center;
 
 	color: rgba(1, 28, 52, 1);
