@@ -168,8 +168,6 @@ label {
 	border: 1px solid rgba(240, 240, 240, 1);
 	border-radius: 2px;
 	display: flex;
-	/* flex-wrap: wrap; */
-	/* align-content: center; */
 	align-items: center;
 
 	color: rgba(1, 28, 52, 1);
@@ -230,7 +228,7 @@ input {
 	font-weight: 400;
 	line-height: 20px; /* 142.857% */
 	letter-spacing: 0.2px;
-  background: none;
+	background: transparent;
 }
 
 .input-container-full select {
@@ -242,7 +240,7 @@ input {
 	font-weight: 400;
 	line-height: 20px; /* 142.857% */
 	letter-spacing: 0.2px;
-  background: none;
+	background: transparent;
 }
 
 .form-row {
@@ -365,7 +363,7 @@ span > a {
 		height: 48px;
 
 		input {
-			width: 80%;
+			width: 90%;
 		}
 
 		select {
@@ -373,12 +371,10 @@ span > a {
 		}
 	}
 
+	#img-icon-container-password,
 	#img-icon-container-calender {
-		margin-left: 20px;
-	}
-
-	#img-icon-container-password {
-		margin-left: 20px;
+    margin-right: 5px;
+		margin-left: 5px;
 	}
 
 	form > button {
