@@ -207,7 +207,7 @@ select {
 
 .input-container-full select,
 input {
-	width: 432px;
+	width: 80%;
 	height: 20px;
 	border: none;
 	margin-left: 10px;
