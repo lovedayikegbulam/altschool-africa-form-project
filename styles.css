@@ -230,6 +230,7 @@ input {
 	font-weight: 400;
 	line-height: 20px; /* 142.857% */
 	letter-spacing: 0.2px;
+  background: none;
 }
 
 .input-container-full select {
@@ -241,6 +242,7 @@ input {
 	font-weight: 400;
 	line-height: 20px; /* 142.857% */
 	letter-spacing: 0.2px;
+  background: none;
 }
 
 .form-row {
