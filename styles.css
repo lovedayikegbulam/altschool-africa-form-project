@@ -369,11 +369,15 @@ span > a {
 		select {
 			width: 95%;
 		}
+
+		#dob {
+			width: 90%;
+		}
 	}
 
 	#img-icon-container-password,
 	#img-icon-container-calender {
-    margin-right: 5px;
+		margin-right: 5px;
 		margin-left: 5px;
 	}
 
