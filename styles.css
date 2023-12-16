@@ -396,16 +396,6 @@ span > a {
 		min-height: 16px;
 	}
 
-	.input-container {
-		width: 295px;
-		height: 48px;
-	}
-
-	#form-field-select > select {
-		width: 295px;
-		height: 48px;
-	}
-
 	.first-column-inner-wrapper {
 		margin: 20px auto;
 		max-width: 300px;
