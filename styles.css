@@ -191,17 +191,11 @@ input:focus {
 	outline: none;
 }
 
-#img-icon-container-calender {
-	margin-left: 20px;
-}
 
-#img-icon-container-password {
-	margin-left: 30px;
-}
 
 .input-container input,
 select {
-	width: 170px;
+	width: 80%;
 	height: 20px;
 	margin-left: 10px;
 	border: transparent;
@@ -220,7 +214,7 @@ input {
 }
 
 .input-container select {
-	width: 90%;
+	width: 95%;
 	color: rgba(115, 115, 115, 1);
 	font-family: "Sofia Pro", sans-serif;
 	font-size: 14px;
@@ -241,6 +235,15 @@ input {
 	line-height: 20px; /* 142.857% */
 	letter-spacing: 0.2px;
 	background: transparent;
+}
+
+
+#img-icon-container-calender {
+	margin-left: 10px;
+}
+
+#img-icon-container-password {
+	margin-left: 30px;
 }
 
 .form-row {
