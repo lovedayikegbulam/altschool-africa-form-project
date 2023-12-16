@@ -207,14 +207,14 @@ select {
 
 .input-container-full select,
 input {
-	width: 80%;
+	width: 87%;
 	height: 20px;
 	border: none;
 	margin-left: 10px;
 }
 
 .input-container select {
-	width: 95%;
+	width: 90%;
 	color: rgba(115, 115, 115, 1);
 	font-family: "Sofia Pro", sans-serif;
 	font-size: 14px;
@@ -226,7 +226,7 @@ input {
 }
 
 .input-container-full select {
-	width: 95%;
+	width: 97%;
 	color: rgba(115, 115, 115, 1);
 	font-family: "Sofia Pro", sans-serif;
 	font-size: 14px;
