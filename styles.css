@@ -363,7 +363,7 @@ span > a {
 		height: 48px;
 
 		input {
-			width: 227px;
+			width: 80%;
 		}
 
 		select {
@@ -372,11 +372,11 @@ span > a {
 	}
 
 	#img-icon-container-calender {
-		margin-left: 20px;
+		margin-left: 10px;
 	}
 
 	#img-icon-container-password {
-		margin-left: 30px;
+		margin-left: 10px;
 	}
 
 	form > button {
