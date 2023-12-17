@@ -411,4 +411,10 @@ span > a {
 		max-width: 327px;
 		min-height: 870;
 	}
+
+	.form-footer {
+		min-height: 100px;
+		position: absolute;
+		margin-top: 30px;
+	}
 }
